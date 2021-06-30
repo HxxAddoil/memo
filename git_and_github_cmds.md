@@ -52,4 +52,35 @@
 
 - ## git指令相关
 
-  todo
+  1.保存
+  
+  ```shell
+  git stash save "message"
+  git stash list
+  git stash apply
+  git stash pop
+  git stash drop
+  git stash clear
+  ```
+  
+  2.变基和reset
+  
+  ```shell
+  git rebase -i HEAD~3
+  git reset --hard HEAD^
+  ```
+  
+  3.add delete文件
+  
+  ```shell
+  git add delete-file -A
+  ```
+  
+  4.修补式提交
+  
+  ```shell
+  git commit --amend
+  ```
+  
+  
+
