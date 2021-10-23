@@ -31,7 +31,7 @@
   6. push到远程仓库github
 
      ```shell
-     git push -u origin master
+     git push -u origin main
      ```
 
   ### 创建本地仓库再添加到远程库
